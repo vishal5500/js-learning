@@ -32,6 +32,11 @@ console.log("Is Working:",isWorking);
 var typeOfWorking = typeof isWorking ;
 console.log("Type Of Working:",typeOfWorking);
 
+
+
+
+
+
 console.log("======STEP 4======");
 
 console.log("===A===")
