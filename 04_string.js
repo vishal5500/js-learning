@@ -28,3 +28,32 @@ var firstName = "Gajanan";
 var lastName= " Kharat";
 var resultConcat = firstName.concat(lastName);
 console.log("Concat result is:", resultConcat);
+
+
+console.log("========== replace() ==================");
+var greet = "Good Morning";
+const afterReplace = greet.replace("Morning", "Afternoon");
+console.log(`After replace string is: ${afterReplace}`);
+
+console.log(`========== toUpperCase() ==================`);
+var greet = "Good Morning";
+var greetInUpperCase = greet.toUpperCase();
+console.log(`${greet} in upper case is : ${greetInUpperCase}`);
+
+console.log(`========== trim() ==================`);   //for removing spaces
+var greet = "   Good Morning   ";
+console.log(`${greet} it's length is : ${greet.length}`);       //length apan direct find karu shakto
+var len = greet.trim();
+console.log(`By Using Trim: ${len}`)
+var nowLengthIs=len.length;
+console.log(`After trim length is: ${nowLengthIs}`);
+
+console.log(`========== include() ==================`);
+var greet = "Good Morning";
+var morning = greet.includes()
+console.log(`incliding the value : ${morning}`);
+
+console.log(`========== slice() ==================`);
+var greet="Developers World"
+var value=greet.slice(0,14)
+console.log(`print output will be : ${value}`);
