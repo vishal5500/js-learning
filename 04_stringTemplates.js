@@ -8,3 +8,7 @@ var firstName = "Gajanan";
 //console.log("My name is: ", firstName, " and city is: ", city);
 
 console.log(` My name is: ${firstName} and city is: ${city} `);
+
+
+var type=city.valueOf()
+console.log(`type og bndjd: ${type}`);
